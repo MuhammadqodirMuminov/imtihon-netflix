@@ -1,0 +1,31 @@
+
+.swiper {
+	width: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+}
+
+.slide-img-top {
+	border-radius: 4px;
+	width: 50%;
+	height: 200px;
+}
+
+.slide-img-top:hover {
+	transform: scale(0.95);
+	cursor: pointer;
+
+	transition: all 0.3s ease;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+	font-size: 55px;
+	fill: black !important;
+	stroke: black !important;
+
+	color: #e5e5e5;
+}

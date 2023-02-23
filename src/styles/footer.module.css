@@ -1,0 +1,43 @@
+/* Footer */
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	font-size: 13px;
+	color: #676767;
+	margin-top: 40px;
+	padding: 20px 200px;
+}
+.grid-item {
+	padding: 15px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 15px;
+}
+.grid-container:hover {
+	cursor: pointer;
+}
+
+.item {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 17px;
+	/* identical to box height */
+
+	/* Gray */
+
+	color: #808080;
+}
+
+.span {
+	margin-right: 10px;
+}
+
+
+@media (max-width: 400px) {
+	.grid-container {
+		grid-template-columns: auto auto;
+	}
+}

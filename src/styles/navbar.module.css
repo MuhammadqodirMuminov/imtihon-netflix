@@ -1,0 +1,110 @@
+.navbar {
+	background-color: #000000;
+	color: #e5e5e5;
+
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+
+.profile {
+  cursor: pointer;
+}
+
+.unstyled {
+	background: linear-gradient(
+		to top,
+		rgba(0, 0, 0, 0.139) 0%,
+		rgb(0, 0, 0) 100%
+	);
+	color: #e5e5e5;
+
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+
+.container {
+  max-width: 1920px;
+  width: 100%;
+	padding: 40px 150px 30px 150px;
+	margin: 0 auto;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.left {
+	display: flex;
+	align-items: center;
+	gap: 50px;
+}
+
+.list {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.item {
+	cursor: pointer;
+	text-decoration: none;
+	color: #e5e5e5;
+}
+
+.right {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+
+  position: relative;
+}
+
+.personal {
+	position: relative;
+
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.person {
+	width: 32px;
+	height: 32px;
+	border-bottom: 7px;
+}
+
+.src {
+  position: relative;
+  height: 56px;
+  max-width: 500px;
+
+  width: 100%;
+}
+
+.drop {
+	cursor: pointer;
+}
+
+.dropped {
+	position: absolute;
+	top: 30;
+	right: -60;
+
+	display: none;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+
+	padding: 20px 10px;
+	background-color: #141414;
+	border-radius: 5px;
+}
+
+.personal:hover .dropped {
+	display: flex;
+}
+
