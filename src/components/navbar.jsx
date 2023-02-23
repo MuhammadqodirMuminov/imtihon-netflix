@@ -65,7 +65,12 @@ const Navbar = () => {
 							/>
 						</Link>
 
-						<Stack spacing={2} sx={{ width: 500 }}>
+						<Stack
+							spacing={2}
+							sx={{
+								width: "400px",
+								
+							}}>
 							<Autocomplete
 								sx={
 									display ? { display: "block" } : { display: "none" }

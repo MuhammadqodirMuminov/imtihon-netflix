@@ -9,7 +9,7 @@
 }
 
 .profile {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .unstyled {
@@ -27,8 +27,8 @@
 }
 
 .container {
-  max-width: 1920px;
-  width: 100%;
+	max-width: 1920px;
+	width: 100%;
 	padding: 40px 150px 30px 150px;
 	margin: 0 auto;
 
@@ -60,7 +60,7 @@
 	align-items: center;
 	gap: 20px;
 
-  position: relative;
+	position: relative;
 }
 
 .personal {
@@ -78,11 +78,11 @@
 }
 
 .src {
-  position: relative;
-  height: 56px;
-  max-width: 500px;
+	position: relative;
+	height: 56px;
+	max-width: 500px;
 
-  width: 100%;
+	width: 100%;
 }
 
 .drop {
@@ -108,3 +108,27 @@
 	display: flex;
 }
 
+@media (min-width: 1200px) {
+	.container {
+		padding: 30px 100px 30px 100px;
+	}
+
+  .left {
+    gap: 20px;
+  }
+
+  .list {
+    gap: 10px;
+  }
+}
+
+
+@media (min-width: 1440px) {
+  .left {
+    gap: 50px;
+  }
+
+  .list {
+    gap: 20px;
+  }
+}
